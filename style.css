@@ -44,16 +44,16 @@ body {
 }
 
 .todo__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo__item, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 .item__input,.item__btn {
-  outline:none;
+  outline: none;
 }
 
 .item__btn {
@@ -155,14 +155,14 @@ h3 {
 
 /* Edit Task */
 .item__input {
-  display:none
+  display: none
 }
 
 .todo__item__edit-mode .item__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__item__edit-mode .item__text {
-  display:none;
+  display: none;
 }
