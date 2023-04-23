@@ -45,11 +45,12 @@ var createNewTaskElement=function(taskString){
     editInput.className="item__input";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-    editButton.className="item__btn item__btn_edit"; //разобраться в дублировании
+    editButton.className="item__btn item__btn_edit";
 
-    deleteButton.className="item__btn item__btn_delete"; //разобраться в дублировании
-    deleteButtonImg.src='./remove.svg';
-		deleteButtonImg.className='btn__img';
+    deleteButton.className="item__btn item__btn_delete";
+    deleteButtonImg.src="./remove.svg";
+		deleteButtonImg.className="btn__img";
+		deleteButtonImg.alt="remove-task"
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -87,7 +88,7 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('input[type=text]');
+    var editInput=listItem.querySelector("input[type=text]");
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".item__btn_edit");
     var containsClass=listItem.classList.contains("todo__item__edit-mode");
