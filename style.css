@@ -48,11 +48,13 @@ body {
   padding: 0px;
 }
 
-.todo__item, h3 {
+.todo__item, 
+h3 {
   list-style: none;
 }
 
-.item__input,.item__btn {
+.item__input,
+.item__btn {
   outline: none;
 }
 
